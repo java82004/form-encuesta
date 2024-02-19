@@ -1,0 +1,97 @@
+:root {
+  --color-blanco: #fff;
+  --color-green: #215A35;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #3a3a9ecc;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+#title, #description {
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--color-blanco);
+  margin: 1.5rem auto;
+}
+
+#survey-form {
+  background: rgba(27, 27, 50, 0.8);
+  margin: 0 auto;
+  width: 60vw;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+label {
+  display: block;
+  align-items: center;
+  font-size: 1.125;
+}
+
+form {  
+  color: #fff;
+  padding: 2.5rem;
+}
+
+select {
+  width: 100%;
+  padding: 6px 12px;
+  margin-top: 10px;
+}
+
+input {
+  margin-top: 10px;;
+  padding: 6px 12px;
+  border: 1px solid #ced4da;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.form-data {
+  display: block;
+}
+
+.form-group {
+  margin: 0 auto 5px auto;
+  padding: 0.25rem;
+}
+
+#email, #name, #number {
+  width: 100%;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1rem auto;
+  font-size: 1.1rem;
+  height: 3.5rem;
+  min-width: 200px;
+  background-color: var(--color-green);
+  color: var(--color-blanco);
+  border-radius: 2px;
+  font-weight: bold;
+  border: none;  
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+}
